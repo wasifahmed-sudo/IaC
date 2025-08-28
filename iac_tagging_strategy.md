@@ -55,17 +55,17 @@ approved-{team}/{version}    # security, platform, compliance
 
 | Region | Environment | Version | Release Type | Impact | Risk | Test Status | Approval | Deployed By | Date |
 |--------|-------------|---------|--------------|--------|------|-------------|----------|-------------|------|
-| West | prod | v1.7.4 | `stable/1.7.4` | 🔴 High | 🔴 High | ❌ Outdated | ❌ Expired | john.doe | 2024-07-15 |
-| West | prod-dr | v1.8.4 | `hotfix/1.8.4-db` | 🔴 High | 🔴 High | ❌ Outdated | ❌ Expired | john.doe | 2024-07-20 |
-| Central | prod | v8.7.5 | `stable/8.7.5` | 🟡 Medium | 🟡 Medium | ✅ Staging | ✅ Platform | jane.smith | 2024-08-20 |
-| Central | prod-dr | v8.7.5 | `stable/8.7.5` | 🟡 Medium | 🟡 Medium | ✅ Staging | ✅ Platform | jane.smith | 2024-08-20 |
-| Central | staging | v8.7.5 | `stable/8.7.5` | 🟡 Medium | 🟡 Medium | ✅ Dev | ✅ Platform | jane.smith | 2024-08-20 |
-| Central | dev | v8.7.5 | `stable/8.7.5` | 🟡 Medium | 🟡 Medium | ✅ Unit | ✅ Dev Team | bob.wilson | 2024-08-20 |
-| Central | test | v8.7.5 | `stable/8.7.5` | 🟡 Medium | 🟡 Medium | ✅ Unit | ✅ Dev Team | bob.wilson | 2024-08-20 |
-| East | prod | v8.7.5 | `stable/8.7.5` | 🟡 Medium | 🟡 Medium | ✅ Staging | ✅ Platform | alice.brown | 2024-08-20 |
-| East | prod-dr | v8.8.7 | `stable/8.8.7` | 🟢 Low | 🟢 Low | ✅ Prod | ✅ All Teams | alice.brown | 2024-08-26 |
-| East | staging | v8.7.5 | `stable/8.7.5` | 🟡 Medium | 🟡 Medium | ✅ Dev | ✅ Platform | alice.brown | 2024-08-20 |
-| East | dev | v8.7.5 | `stable/8.7.5` | 🟡 Medium | 🟡 Medium | ✅ Unit | ✅ Dev Team | alice.brown | 2024-08-20 |
+| West | prod | v1.7.4 | `stable/1.7.4` | 🔴 High | 🔴 High | ❌ Outdated | ❌ Expired | wasif | 2024-07-15 |
+| West | prod-dr | v1.8.4 | `hotfix/1.8.4-db` | 🔴 High | 🔴 High | ❌ Outdated | ❌ Expired | wasif | 2024-07-20 |
+| Central | prod | v8.7.5 | `stable/8.7.5` | 🟡 Medium | 🟡 Medium | ✅ Staging | ✅ Platform | wasif | 2024-08-20 |
+| Central | prod-dr | v8.7.5 | `stable/8.7.5` | 🟡 Medium | 🟡 Medium | ✅ Staging | ✅ Platform | wasif | 2024-08-20 |
+| Central | staging | v8.7.5 | `stable/8.7.5` | 🟡 Medium | 🟡 Medium | ✅ Dev | ✅ Platform | wasif | 2024-08-20 |
+| Central | dev | v8.7.5 | `stable/8.7.5` | 🟡 Medium | 🟡 Medium | ✅ Unit | ✅ Dev Team | wasif | 2024-08-20 |
+| Central | test | v8.7.5 | `stable/8.7.5` | 🟡 Medium | 🟡 Medium | ✅ Unit | ✅ Dev Team | wasif | 2024-08-20 |
+| East | prod | v8.7.5 | `stable/8.7.5` | 🟡 Medium | 🟡 Medium | ✅ Staging | ✅ Platform | wasif | 2024-08-20 |
+| East | prod-dr | v8.8.7 | `stable/8.8.7` | 🟢 Low | 🟢 Low | ✅ Prod | ✅ All Teams | wasif | 2024-08-26 |
+| East | staging | v8.7.5 | `stable/8.7.5` | 🟡 Medium | 🟡 Medium | ✅ Dev | ✅ Platform | wasif | 2024-08-20 |
+| East | dev | v8.7.5 | `stable/8.7.5` | 🟡 Medium | 🟡 Medium | ✅ Unit | ✅ Dev Team | wasif | 2024-08-20 |
 
 ## 4. Release Pipeline with Tag Management
 
